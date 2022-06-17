@@ -1,0 +1,35 @@
+/* style chess table */
+table {
+    border: 0.5em;
+    padding: 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+  }
+  /*page style */
+  body {
+    background-color: rgb(107, 94, 94);
+  }
+  H1 {
+    text-align: center;
+  }
+  .chess-board {
+    border-spacing: 5px;
+    border-collapse: collapse;
+  }
+  .chess-board th {
+    padding: 20px;
+  }
+  .chess-board td {
+    border: 5px solid;
+    width: 50px;
+    height: 50px;
+  }
+  .chess-board .light {
+    background: skyblue;
+  }
+  .chess-board .dark {
+    background: navy;
+  }
+  
