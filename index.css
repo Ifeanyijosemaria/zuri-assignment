@@ -1,35 +1,53 @@
-/* style chess table */
-table {
-    border: 0.5em;
-    padding: 20px 20px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    text-align: center;
-  }
-  /*page style */
-  body {
-    background-color: rgb(107, 94, 94);
-  }
-  H1 {
-    text-align: center;
-  }
-  .chess-board {
-    border-spacing: 5px;
-    border-collapse: collapse;
-  }
-  .chess-board th {
-    padding: 20px;
-  }
-  .chess-board td {
-    border: 5px solid;
-    width: 50px;
-    height: 50px;
-  }
-  .chess-board .light {
-    background: skyblue;
-  }
-  .chess-board .dark {
-    background: navy;
-  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content:center ;
+   align-items: center;
+   height: 100vh;
+   font-size: 15px;
+   font-family: 'Lexend Deca', sans-serif;
+}
+main div{
+    /* margin: px; */
+    padding: 2em;
+    
+}
+img{
+    margin-bottom: 10px;
+}
+
+.first-content{
+    background-color: hsl(31, 77%, 52%);
+
+}
+.second-content{
+    background-color: hsl(184, 100%, 22%);
+    
+}
+.third-content{
+    background-color: hsl(179, 100%, 13%);
+}
+p{
+   color: hsla(0, 0%, 100%, 0.75);
+   margin: 10px;
   
+}
+h1{
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 15px;
+    
+}
+button{
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    padding: 10px;
+    margin: 25px;
+
+}
